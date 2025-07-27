@@ -78,11 +78,9 @@ python python/forecasting_model.py
 
 python python/data_engineering.py
 ```
+``` to run the database from excel to sqllite
+python python/data_engineering.py
+```
 ```run main file
 python -m streamlit run streamlit/app.py
 ```
-
-
-
-
-
