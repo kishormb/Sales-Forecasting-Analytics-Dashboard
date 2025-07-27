@@ -15,7 +15,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 # Page configuration
 st.set_page_config(
     page_title="Sales Forecasting Dashboard",
-    page_icon="",
+    page_icon=" ",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -110,12 +110,12 @@ def get_kpis():
 
 def main():
     # Header
-    st.markdown('<h1 class="main-header">🚀 Sales Forecasting & Analytics Dashboard</h1>', 
+    st.markdown('<h1 class="main-header"> Sales Forecasting & Analytics Dashboard</h1>', 
                 unsafe_allow_html=True)
     
     # Sidebar
     with st.sidebar:
-        st.markdown('<div class="sidebar-header">🎛️ Dashboard Controls</div>', 
+        st.markdown('<div class="sidebar-header"> Dashboard Controls</div>', 
                    unsafe_allow_html=True)
         
         # Date range selector
@@ -457,7 +457,7 @@ def main():
     
     # Footer
     st.markdown("---")
-    st.markdown("📊 **Sales Forecasting Dashboard** | Built with Streamlit & Prophet | Data updated in real-time")
+    st.markdown("📊 **Sales Forecasting Dashboard** | Built with Streamlit & Prophet | Data updated in real-time ")
 
 if __name__ == "__main__":
     main()
